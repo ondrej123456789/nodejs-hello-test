@@ -1,6 +1,6 @@
 version: 1
 applications:
-  - appRoot: nextjs-hello-amplify
+  - appRoot: src/app
     frontend:
       phases:
         preBuild:

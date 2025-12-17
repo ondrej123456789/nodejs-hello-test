@@ -3,6 +3,12 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+            {/* Dynatrace script */}
+      <Script
+        src="https://js-cdn.dynatrace.com/jstag/1944242a637/bf56655oaq/233920d31913ac02_complete.js"
+        strategy="afterInteractive"
+        crossOrigin="anonymous"
+      />
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
         <Image
           className="dark:invert"

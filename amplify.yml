@@ -1,6 +1,6 @@
 version: 1
 applications:
-  - appRoot: /
+  - appRoot: nextjs-hello-amplify
     frontend:
       phases:
         preBuild:
@@ -16,5 +16,3 @@ applications:
       cache:
         paths:
           - node_modules/**/*
-    # If you’re using Next.js App Router with SSR/ISR, Amplify auto-detects and serves it.
-    # No additional rewrites are needed for basic Hello World.
